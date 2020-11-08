@@ -2,13 +2,16 @@ import pyaudio
 import winsound
 import time
 
+winsound.Beep(1000, 50)
+
+
 # global constants
 FREQ = 7000
 dot_duration = 100  # in ms
 dash_duration = 250 # in ms
 
-winsound.Beep(FREQ, dot_duration)
-winsound.Beep(FREQ, dash_duration)
+# winsound.Beep(FREQ, dot_duration)
+# winsound.Beep(FREQ, dash_duration)
 
 morsetab = {
     'a': '.- ',     'b': '-... ',
